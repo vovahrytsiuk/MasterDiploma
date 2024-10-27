@@ -6,3 +6,4 @@ add_library(library library.cpp)
 include(CTest)
 enable_testing()
 
+install(TARGETS library DESTINATION bin)
